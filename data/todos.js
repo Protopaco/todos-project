@@ -6,13 +6,13 @@ module.exports = [
   },
   {
     name: 'comb your hair (if you have any)',
-    cool_factor: 3,
+    priority: 3,
     completed: false
 
   },
   {
     name: 'call your mother',
-    cool_factor: 2,
+    priority: 2,
     completed: false
   }
 ];
