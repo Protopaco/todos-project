@@ -107,7 +107,7 @@ describe('app routes', () => {
       };
 
       const data = await fakeRequest(app)
-        .put('/api/todos/?_id=6')
+        .put('/api/todos/6')
         .set({ Authorization: token })
         .send(expectation)
         .expect('Content-Type', /json/)
